@@ -1,13 +1,29 @@
-    .header {
-      background-color: gray;
-    &-menu {
-      font-size: 40px;
-    }
-      ul {
-        background-color: aliceblue;
-      }
-      li {
-        color: red;
-      }
+@import "header";
+@import "features";
+@import "buttons";
 
-    }
+
+.header {
+  background-color: gray;
+  &-menu {
+    font-size: 40px;
+  }
+  ul {
+    background-color: aliceblue;
+  }
+  li {
+    color: red;
+  }
+
+}
+
+body {
+  display: flex;
+}
+
+.LI-profile-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
